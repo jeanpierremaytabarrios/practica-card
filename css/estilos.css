@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+}
+.general{
+    width: 100vw;
+    height: 100vh;
+    background-color: #AAFF8A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 60%;
+    height: 80%;
+    background-color: #55FB6C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-logo{
+    width: 100%;
+    height: 45%;
+}
+.cont-logo img{
+    width: 100%;
+    height: 100%;
+}
+.cont-descrip{
+    width: 100%;
+    height: 55%;
+}
+
+.descrip-letter{
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.let-elem h1, .let-elem p{
+    font-family: Arial;
+}
+.let-elem h1{
+    font-weight: normal;
+}
+.let-elem p{
+    font-size: 1.2em;
+}
+
+.let-elem{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrip-but{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.descrip-but button{
+    width: 25%;
+    height: 40%;
+    font-size: 18px;
+    border: none;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.descrip-but button:hover{
+    background-color: yellow;
+    color: white;
+}
